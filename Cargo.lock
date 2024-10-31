@@ -5,3 +5,10 @@ version = 3
 [[package]]
 name = "rs-bazel"
 version = "0.1.0"
+dependencies = [
+ "substring-library",
+]
+
+[[package]]
+name = "substring-library"
+version = "0.1.0"
