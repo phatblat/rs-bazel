@@ -12,3 +12,11 @@ mod tests {
         assert_eq!(result, 4);
     }
 }
+
+pub fn find_substring<'a>(s: &'a str, substring: &str) -> Option<&'a str> {
+    s.find(substring).map(|i| &s[i..i + substring.len()])
+}
+
+pub fn replace_substring(s: &str, from: &str, to: &str) -> String {
+    s.replace(from, to)
+}
