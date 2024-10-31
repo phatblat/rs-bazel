@@ -10,7 +10,8 @@ rust_library(
     srcs = ["src/lib.rs"],
 
     # Specifies the Rust edition to use for this library.
-    edition = "2021"
+    edition = "2021",
+    visibility = ["//visibility:public"],
 )
 
 # Declares a Rust test target with the given name.
