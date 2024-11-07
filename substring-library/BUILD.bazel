@@ -1,4 +1,4 @@
-# ./substring-library/BUILD
+# ./substring-library/BUILD.bazel
 
 load("@rules_rust//rust:defs.bzl", "rust_library", "rust_test")
 

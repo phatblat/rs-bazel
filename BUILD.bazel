@@ -1,4 +1,4 @@
-# ./BUILD
+# ./BUILD.bazel
 
 # Loads the Rust rules and the `rust_binary` function definition.
 load("@rules_rust//rust:defs.bzl", "rust_binary")
